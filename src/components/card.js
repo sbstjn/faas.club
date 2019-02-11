@@ -64,9 +64,17 @@ const Card = props => (
     <Tag>{props.type}</Tag>
     <Headline>{props.name}</Headline>
     <Description>{props.info}</Description>
-    <PRLink href={props.github} target="_blank">
-      View on GitHub
-    </PRLink>
+    {props.github && (
+      <PRLink href={props.github} target="_blank">
+        View on GitHub
+      </PRLink>
+    )}
+
+    {props.url && (
+      <PRLink href={props.url} target="_blank">
+        Visit Website
+      </PRLink>
+    )}
   </Wrapper>
 )
 
@@ -74,7 +82,8 @@ Card.propTypes = {
   name: PropTypes.string,
   type: PropTypes.string,
   info: PropTypes.string,
-  github: PropTypes.string
+  github: PropTypes.string,
+  url: PropTypes.string
 }
 
 export default Card

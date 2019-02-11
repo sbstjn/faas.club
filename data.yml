@@ -14,3 +14,11 @@
   info: Example project to bootstrap AWS Lambda functions with AWS Serverless Application Model using TypeScript.
   type: Example
   github: https://github.com/sbstjn/faas-sam-lambda-typescript
+- name: GitHub Releases in Slack
+  info: Notify Slack channels about new releases of your GitHub projects.
+  type: Guide
+  url: https://sbstjn.com/notify-slack-about-github-release-with-aws-lambda.html
+- name: Serverless Analytics w/ Kinesis
+  info: Create your own serverless website Analytics using Amazon Kinesis and AWS Lambda.
+  type: Project
+  url: https://sbstjn.com/serverless-analytics-with-kinesis-stream-lambda.html
