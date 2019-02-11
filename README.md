@@ -1,8 +1,22 @@
 # [FaaS.club](https://faas.club)
 
-> Curated list for serverless resources and everything for Functions as a Service at https://faas.club
+[![FaaS.club](https://badgen.now.sh/badge/FaaS/CLUB/00C387)](https://faas.club)
+
+> Curated list for serverless resources and everything for a wonderful Functions as a Service world.
 
 Update `data.yml` to add your item to the list. 🥰
+
+```bash
+# Check out the repository
+$ > git clone git@github.com:sbstjn/faas.club.git
+$ > cd faas.club
+
+# Install dependencies
+$ > yarn install
+
+# Run Gatsby on local machine
+$ > yarn develop
+```
 
 ## License
 
