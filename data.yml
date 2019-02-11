@@ -1,0 +1,16 @@
+- name: FaaS Makefile
+  info: Basic Makefile to bootstrap FaaS projects and assure a common tooling to package, deploy, and destroy AWS CloudFormation stacks.
+  type: Tooling
+  github: https://github.com/sbstjn/faas-makefile
+- name: AWS SAM Lambda w/ Python
+  info: Example project to bootstrap AWS Lambda functions with AWS Serverless Application Model using Python.
+  type: Example
+  github: https://github.com/sbstjn/faas-sam-lambda-python
+- name: AWS SAM Lambda w/ Go
+  info: Example project to bootstrap AWS Lambda functions with AWS Serverless Application Model using Golang.
+  type: Example
+  github: https://github.com/sbstjn/faas-sam-lambda-go
+- name: AWS SAM Lambda w/ TypeScript
+  info: Example project to bootstrap AWS Lambda functions with AWS Serverless Application Model using TypeScript.
+  type: Example
+  github: https://github.com/sbstjn/faas-sam-lambda-typescript
