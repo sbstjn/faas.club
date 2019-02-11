@@ -1,4 +1,4 @@
-# [FaaS.club](https://faas.club)
+# Function as a Service, Club.
 
 [![FaaS.club](https://badgen.now.sh/badge/FaaS/CLUB/00C387)](https://faas.club)
 
