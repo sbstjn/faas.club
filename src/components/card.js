@@ -26,6 +26,10 @@ const Headline = styled.h3`
   color: #00aa75;
   font-size: 18px;
   font-family: 'Raleway', sans-serif;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  height: 24px;
 `
 
 const Description = styled.p`
@@ -42,8 +46,8 @@ const Tag = styled.span`
   float: right;
   font-family: 'Raleway', sans-serif;
   font-weight: 600;
-  font-size: 13px;
-  line-height: 15px;
+  font-size: 12px;
+  line-height: 14px;
   color: #00aa75;
   background-color: #ebfff9;
   text-transform: uppercase;
@@ -51,6 +55,8 @@ const Tag = styled.span`
   padding: 4px 8px 3px 8px;
   letter-spacing: 0.02em;
   border-radius: 5px;
+  position: relative;
+  top: 1px;
 `
 
 const Card = props => (
