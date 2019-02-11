@@ -1,6 +1,6 @@
-# FaaS.CLUB
+# [FaaS.club](https://faas.club)
 
-> [https://faas.club](https://faas.club)
+> Curated list for serverless resources and everything for Functions as a Service at https://faas.club
 
 Update `data.yml` to add your item to the list. 🥰
 
