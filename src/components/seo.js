@@ -28,7 +28,7 @@ function SEO({ description, lang, meta, keywords, title }) {
               },
               {
                 property: `og:image`,
-                content: `/splash.png`
+                content: `https://faas.club/splash.png`
               },
               {
                 property: `og:description`,
