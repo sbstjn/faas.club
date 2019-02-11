@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `Function as a Service, Club.`,
-    description: `About serverless FaaS technology.`,
+    description: `Curated list of awesome resources for all things Serverless. Deploy your functions as a service to your favorite cloud provider. AWS CloudFormation examples and toolings to bootstrap your next FaaS project.`,
     author: `@sbstjn`
   },
   plugins: [
@@ -18,11 +18,6 @@ module.exports = {
         path: `./data.yml`
       }
     },
-    {
-      resolve: `gatsby-plugin-styled-components`,
-      options: {
-        // Add any options here
-      }
-    }
+    `gatsby-plugin-styled-components`
   ]
 }

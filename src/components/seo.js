@@ -27,6 +27,10 @@ function SEO({ description, lang, meta, keywords, title }) {
                 content: metaTitle
               },
               {
+                property: `og:image`,
+                content: `/splash.png`
+              },
+              {
                 property: `og:description`,
                 content: metaDescription
               },
