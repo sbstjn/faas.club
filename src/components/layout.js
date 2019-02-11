@@ -1,5 +1,6 @@
 import React from 'react'
 import PropTypes from 'prop-types'
+import Gauges from 'gauges-react'
 import { StaticQuery, graphql } from 'gatsby'
 import { createGlobalStyle } from 'styled-components'
 
@@ -37,6 +38,7 @@ const Layout = ({ children, primary, secondary, footer }) => (
     `}
     render={data => (
       <>
+        <Gauges id="5a88ab800b35912f90000021" />
         <GlobalStyle />
         <link
           rel="stylesheet"

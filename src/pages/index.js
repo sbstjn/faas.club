@@ -16,7 +16,7 @@ const IndexPage = ({
   }
 }) => (
   <Layout>
-    <SEO title="Faas.CLUB" keywords={[`faas`, `faasclub`, `serverless`, `function as a service`, `lambda`]} />
+    <SEO title="FaaS.CLUB" keywords={[`faas`, `faasclub`, `serverless`, `function as a service`, `lambda`]} />
 
     <List>
       {edges.map(edge => (
