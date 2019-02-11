@@ -6,6 +6,7 @@ import Logo from './logo'
 
 const Wrapper = styled.header`
   text-align: center;
+  overflow-x: hidden;
 `
 
 const Header = props => (
