@@ -1,8 +1,8 @@
-# Function as a Service, Club.
-
-[![FaaS.club](https://badgen.now.sh/badge/FaaS/CLUB/00C387)](https://faas.club)
+# Function as a Service, Club [![FaaS.club](https://badgen.now.sh/badge/FaaS/CLUB/00C387)](https://faas.club)
 
 > Curated list for serverless resources and everything for a wonderful Functions as a Service world.
+
+## Your Project
 
 Update `data.yml` to add your item to the list. 🥰
 
