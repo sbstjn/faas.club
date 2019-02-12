@@ -20,10 +20,7 @@ const Wrapper = styled.p`
 
 export default () => (
   <Wrapper>
-    Create a{' '}
-    <a href="https://github.com/sbstjn/faas.club/blob/master/data.yml" target="_blank">
-      PullRequest on GitHub
-    </a>{' '}
-    to add something to the list.
+    Create a <a href="https://github.com/sbstjn/faas.club/blob/master/data.yml">PullRequest on GitHub</a> to add
+    something to the list.
   </Wrapper>
 )

@@ -4,6 +4,7 @@ import styled from 'styled-components'
 
 import Card from '../components/card'
 import Layout from '../components/layout'
+import List from '../components/list/list'
 import SEO from '../components/seo'
 
 const Welcome = styled.p`
@@ -24,27 +25,21 @@ const Welcome = styled.p`
   }
 `
 
-const List = styled.div`
-  margin: 50px 0 50px; 0;
-`
-
-const IndexPage = ({
-  data: {
-    allDataYaml: { edges }
+export default class IndexPage extends React.Component {
+  constructor(props) {
+    super(props)
   }
-}) => (
-  <Layout>
-    <SEO title="FaaS.club" keywords={[`faas`, `faasclub`, `serverless`, `function as a service`, `lambda`]} />
-    <Welcome>Curated list of resources for all things Serverless.</Welcome>
-    <List>
-      {edges.map(edge => (
-        <Card {...edge.node} />
-      ))}
-    </List>
-  </Layout>
-)
 
-export default IndexPage
+  render() {
+    return (
+      <Layout>
+        <SEO title="FaaS.club" keywords={[`faas`, `faasclub`, `serverless`, `function as a service`, `lambda`]} />
+        <Welcome>Curated list of resources for all things Serverless.</Welcome>
+        <List items={this.props.data.allDataYaml.edges} />
+      </Layout>
+    )
+  }
+}
 
 export const pageQuery = graphql`
   query {

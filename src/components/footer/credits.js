@@ -18,8 +18,6 @@ const Wrapper = styled.span`
 
 export default () => (
   <Wrapper>
-    <a href="https://sbstjn.com" target="_blank">
-      sbstjn.com
-    </a>
+    <a href="https://sbstjn.com">sbstjn.com</a>
   </Wrapper>
 )
