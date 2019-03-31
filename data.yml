@@ -22,3 +22,11 @@
   info: Create your own serverless website Analytics using Amazon Kinesis and AWS Lambda.
   type: Project
   url: https://sbstjn.com/serverless-analytics-with-kinesis-stream-lambda.html
+- name: State Machines and DynamoDB
+  info: Process a DynamoDB table with AWS Step Functions and State Machines.
+  type: Project
+  url: https://github.com/superluminar-io/step-worker
+- name: URL Shortener
+  info: Build your own URL shortening service with Lambda, API Gateway, and DynamoDB.
+  type: Project
+  url: https://github.com/superluminar-io/url-shortener
